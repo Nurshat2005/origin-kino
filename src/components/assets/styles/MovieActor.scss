@@ -1,0 +1,18 @@
+
+#movie-actor{
+.movie-actor{
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+    width: 750px;
+    .image{
+        border-radius: 10px;
+
+width: 150px;
+    }
+    .mm{
+        display: flex;
+        flex-direction: column;
+    }
+}
+}

@@ -1,0 +1,84 @@
+#header{
+    padding: 30px 0;
+    // background: rgb(9, 19, 84);
+    position: sticky;
+    
+    top: 0;
+    z-index: 99;
+    .header{
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .message{
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            font-size: 20px;
+            top: 26px;
+            align-items: center;
+            right: 65px;
+            color: rgb(241, 21, 105);
+            border-radius: 50%;
+            background:black;
+        text-align: center;
+        }
+        &--nav{
+           a{
+            color:white;
+            font-size: 20px;
+            font-weight: 700;
+            margin:0 40px;
+           }
+        }
+      .select{
+        background: transparent;
+        color: white;
+border: 2px solid white;
+border-radius: 6px;
+padding:8px 10px ;
+      }
+      .option{
+        background: rgb(9, 19, 84);
+      }
+
+       &--search{
+     
+        input{
+            background: transparent;
+            padding: 10px 12px;
+            outline: none;
+            border: none;
+            border-bottom: 3px solid white;
+            color: white;
+        
+        }&::placeholder{
+            color: white;
+            background: transparent;
+        }
+        button{
+            font-size: 20px;
+            padding: 5px 13px;
+            cursor: pointer;
+            color: black;
+            background: white;
+            border: none;
+            border-radius: 9px;
+        }
+       }
+&--dark{
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-right: 10px;
+
+}
+.heart-icons{
+    color: white;
+    font-size: 27px;
+    cursor: pointer;
+}
+
+    }
+}

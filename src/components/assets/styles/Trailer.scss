@@ -1,0 +1,33 @@
+#trailer{
+    padding: 40px;
+   .trailer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    &--videos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px ;
+        iframe{
+            width: 400px;
+            height: 250px;
+            border-radius: 20px;
+        }
+    }
+    .more{
+        border: none;
+        color: black;
+        background: transparent;
+        cursor:pointer;
+        font-weight: 400 ;
+        font-size: 30px;
+   text-decoration-line: underline;
+   margin: 40px ;
+
+    }
+   } 
+
+}

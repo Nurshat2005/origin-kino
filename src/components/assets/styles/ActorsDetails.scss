@@ -1,0 +1,66 @@
+#actorsDetails{
+   
+    padding: 50px;
+ .card--name{
+
+display: flex;
+gap: 40px;
+.biography{
+    h3{
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+   .span{
+    color: aqua;
+    cursor: pointer;
+display: flex;
+align-items: center;
+text-transform: capitalize;
+padding: 20px 10px;
+padding-left: 800px;
+
+   }
+    p{
+        line-height: 22px;
+    letter-spacing: 1.4px;
+        
+    }
+    button{
+        border:none;
+        border-bottom: 3px solid aqua;
+        font-size: 20px;
+        color: aqua;
+        cursor: pointer;
+        margin-top: 30px;
+        background: none;
+    }
+    
+}
+.profile{
+    border-radius: 12px;
+}
+.icons{
+    font-weight: 900;
+    font-size: 15px;
+    .a{
+    display: inline-block;
+        justify-content: flex-start;
+        cursor: pointer;
+        padding: 22px  20px 0 0;
+        font-size: 25px;
+        align-items: flex-start;
+        
+
+    }
+    
+    h6{
+        width: 11%;
+    }
+   
+}
+.fame{
+margin-bottom: 20px;
+}
+}
+
+}
